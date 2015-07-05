@@ -14,7 +14,7 @@ import android.widget.TextView;
 import com.parse.ParseQuery;
 import com.parse.ParseObject;
 import com.parse.GetCallback;
-import java.util.List;
+//import java.util.List;
 import com.parse.ParseException;
 
 public class Welcome extends Activity {
