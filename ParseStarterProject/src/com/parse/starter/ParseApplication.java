@@ -21,13 +21,12 @@ public class ParseApplication extends Application {
     Parse.enableLocalDatastore(this);
 
     // Add your initialization code here
-    Parse.initialize(this, "caWTxaVr7uvaKMSFm0jMohuafHM1wJXwBL1uhf33", "Dpxm6gmyGwkIpqgPjGqHLBfGaWSkxUUYVfRn33EY");
-    com.parse.ParseInstallation.getCurrentInstallation().saveInBackground();
+    Parse.initialize(this, "1RaZa8VhErCxW7G0nxv7Jsj3Hmfe6YNmSntmunN9", "0gkr0Pd1WNVpwJOyssBMn7QceNifTSCuVTDJ1zVS");
 
     ParseUser.enableAutomaticUser();
     ParseACL defaultACL = new ParseACL();
     // Optionally enable public read access.
-    // defaultACL.setPublicReadAccess(true);
+    defaultACL.setPublicReadAccess(true);
     ParseACL.setDefaultACL(defaultACL, true);
   }
 }
